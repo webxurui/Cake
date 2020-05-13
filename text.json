@@ -1,0 +1,647 @@
+{
+
+  "cake": [{
+      "id": 1,
+      "name": "深爱",
+      "price": 536,
+      "weight": "454g/1.0磅",
+      "img": "./img/contItem1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 2,
+      "name": "草莓奶油蛋糕",
+      "price": 456,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem2.jpeg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 3,
+      "name": "黑越橘",
+      "price": 298,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 4,
+      "name": "布莱克",
+      "price": 298,
+      "weight": "454g/1.0磅",
+      "img": "./img/contItem4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 5,
+      "name": "（新）卡百利（丰香奶油）",
+      "price": 268,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem5.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 6,
+      "name": "榴莲飘飘",
+      "price": 298,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem6.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 7,
+      "name": "黑白巧克力慕斯",
+      "price": 298,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem7.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 8,
+      "name": "米道",
+      "price": 298,
+      "weight": "454g/1.0磅",
+      "img": "./img/contItem8.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 9,
+      "name": "朗姆芝士",
+      "price": 298,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem9.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 10,
+      "name": "浅草",
+      "price": 298,
+      "weight": "908g/2.0磅",
+      "img": "./img/contItem10.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+
+  "IceCream": [{
+      "id": 11,
+      "name": "原味牛乳冰淇淋",
+      "price": 45,
+      "weight": "/份",
+      "img": "./img/ice1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 12,
+      "name": "夏日-Affogato组合",
+      "price": 55,
+      "weight": "/盒",
+      "img": "./img/ice2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+
+  "AfternoonTea": [{
+      "id": 13,
+      "name": "手剥紫皮大腰果（248g）",
+      "price": 80,
+      "weight": "/一份",
+      "img": "./img/cafe1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 14,
+      "name": "灰枣（1包）",
+      "price": 45,
+      "weight": "/一份",
+      "img": "./img/cafe2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 15,
+      "name": "手剥紫皮大腰果（120g）",
+      "price": 50,
+      "weight": "/一份",
+      "img": "./img/cafe1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 16,
+      "name": "蔓越莓干（1包）",
+      "price": 45,
+      "weight": "/一份",
+      "img": "./img/cafe2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 17,
+      "name": "耶加雪菲挂耳咖啡",
+      "price": 10,
+      "weight": "/袋",
+      "img": "./img/cafe3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 18,
+      "name": "西达摩挂耳咖啡",
+      "price": 10,
+      "weight": "/袋",
+      "img": "./img/cafe4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+
+  "bread": [{
+      "id": 19,
+      "name": "经典套餐",
+      "price": 58,
+      "weight": "305g/(一份)",
+      "img": "./img/mianbao1.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 20,
+      "name": "儿童套餐",
+      "price": 48,
+      "weight": "230g/(一份)",
+      "img": "./img/mianbao2.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 21,
+      "name": "全家福套餐",
+      "price": 78,
+      "weight": "445g/(一份)",
+      "img": "./img/mianbao3.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+
+  "NormalTemperatureCake": [{
+      "id": 22,
+      "name": "磅蛋糕切片（核桃）",
+      "price": 8,
+      "weight": "30g/(份)",
+      "img": "./img/dangao1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 23,
+      "name": "磅蛋糕切片（杏仁）",
+      "price": 8,
+      "weight": "30g/(份)",
+      "img": "./img/dangao2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 24,
+      "name": "磅蛋糕切片（黑朗姆）",
+      "price": 8,
+      "weight": "30g/(份)",
+      "img": "./img/dangao3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+
+  "gift": [{
+      "id": 25,
+      "name": "设计师竹纸扇",
+      "price": 38,
+      "weight": "/把",
+      "img": "./img/shejishi1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    },
+    {
+      "id": 26,
+      "name": "方形蜡烛",
+      "price": 8,
+      "weight": "/个",
+      "img": "./img/shejishi2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }, {
+      "id": 27,
+      "name": "圣诞绿蜡烛",
+      "price": 12,
+      "weight": "/个",
+      "img": "./img/shejishi3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }, {
+      "id": 28,
+      "name": "21cake餐具套餐",
+      "price": 0.5,
+      "weight": "/份",
+      "img": "./img/shejishi4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99
+    }
+  ],
+  "new": [{
+      "id": 29,
+      "name": "蓝莓丹麦",
+      "introduce": "21cake「经典款面包持续稳定供应」",
+      "price": "13.80",
+      "weight": "66g/(一个)",
+      "img": "./img/contImg1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/金黄，酥脆,内部孔洞均匀舒展/<br>/咬它的口感，像踩在雪上 /<br>/野生蓝莓，手工熬制酱心/<br>/抿一下,蓝莓酱融化在油脂香气中/ ",
+      "lunbo": [{
+        "img": "./detImgs/lm1.jpg"
+      }, {
+        "img": "./detImgs/lm2.jpg"
+      }, {
+        "img": "./detImgs/lm3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/lm4.jpg"
+      }, {
+        "img": "./detImgs/lm5.jpg"
+      }, {
+        "img": "./detImgs/lm6.jpg"
+      }, {
+        "img": "./detImgs/lm7.jpg"
+      }, {
+        "img": "./detImgs/lm8.jpg"
+      }, {
+        "img": "./detImgs/lm9.jpg"
+      }, {
+        "img": "./detImgs/lm10.jpg"
+      }]
+    },
+    {
+      "id": 30,
+      "name": "(新卡百利)",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "268.00",
+      "weight": "454g/(1.0磅)",
+      "img": "./img/contImg2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "产品限量，需提前预定",
+      "lunbo": [{
+        "img": "./detImgs/ny1.jpg"
+      }, {
+        "img": "./detImgs/ny2.jpg"
+      }, {
+        "img": "./detImgs/ny3.jpg"
+      }, {
+        "img": "./detImgs/ny4.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ny5.jpg"
+      }, {
+        "img": "./detImgs/ny6.jpg"
+      }, {
+        "img": "./detImgs/ny7.jpg"
+      }, {
+        "img": "./detImgs/ny8.jpg"
+      }, {
+        "img": "./detImgs/ny9.jpg"
+      }, {
+        "img": "./detImgs/ny10.jpg"
+      }, {
+        "img": "./detImgs/ny11.jpg"
+      }, {
+        "img": "./detImgs/ny12.jpg"
+      }, {
+        "img": "./detImgs/ny13.jpg"
+      }, {
+        "img": "./detImgs/ny14.jpg"
+      }]
+    },
+    {
+      "id": 31,
+      "name": "(新)栗蓉暗香 ",
+      "introduce": "新栗上市，栗香正浓",
+      "price": "198.00",
+      "weight": "454g/(1.0磅)",
+      "img": "./img/contImg3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/栗子烘烤的蛋糕坯，鲜栗蓉，点缀手工比利时黑巧克力豆/<br>Chestnuts and real fresh cream go so well together you know this isn’t going to be a short term dalliance. In fact, one whiff of the aroma of Chestnut Cream and you’ll realize you’re attending their wedding...",
+      "lunbo": [{
+        "img": "./detImgs/lr1.jpg"
+      }, {
+        "img": "./detImgs/lr2.jpg"
+      }, {
+        "img": "./detImgs/lr3.jpg"
+      }, {
+        "img": "./detImgs/lr4.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/lr5.jpg"
+      }, {
+        "img": "./detImgs/lr6.jpg"
+      }, {
+        "img": "./detImgs/lr7.jpg"
+      }, {
+        "img": "./detImgs/lr8.jpg"
+      }, {
+        "img": "./detImgs/lr9.jpg"
+      }, {
+        "img": "./detImgs/lr10.png"
+      }, {
+        "img": "./detImgs/lr11.jpg"
+      }]
+    }
+  ],
+  "Popularity": [{
+      "id": 32,
+      "name": "深爱",
+      "introduce": "你深爱过吗？",
+      "price": "268.00",
+      "weight": "454g/1.0磅",
+      "img": "./img/contImg5.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/奶油中调入玫瑰甘露，整体色泽加深/<br>/夹心中增加可咀嚼的玫瑰蜜饯，丰富口感/<br><font color='red'>*玫瑰花瓣经过消毒处理，仅用作装饰使用（使用围边纸与蛋糕隔开），不可食用。</font><br>1月1日起夹心为草莓。",
+      "lunbo": [{
+        "img": "./detImgs/sa1.jpg"
+      }, {
+        "img": "./detImgs/sa2.jpg"
+      }, {
+        "img": "./detImgs/sa3.jpg"
+      }, {
+        "img": "./detImgs/sa4.jpg"
+      }, {
+        "img": "./detImgs/sa5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/sa6.jpg"
+      }, {
+        "img": "./detImgs/sa7.jpg"
+      }, {
+        "img": "./detImgs/sa8.jpg"
+      }, {
+        "img": "./detImgs/sa9.jpg"
+      }, {
+        "img": "./detImgs/sa10.jpg"
+      }, {
+        "img": "./detImgs/sa11.jpg"
+      }]
+    },
+    {
+      "id": 33,
+      "name": "芒果奶油",
+      "introduce": "坚持自然成熟，应季鲜切芒果",
+      "price": "198.00",
+      "weight": "908g/(2.0磅)",
+      "img": "./img/contImg6.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/不使用罐头水果和植混奶油/<br>/坚持自然成熟，应季鲜切芒果/<br>/坚持自然成熟，应季鲜切芒果/<br>/新西兰纯乳脂奶油/<br>/自研芒果百香果慕斯夹心/<br>高价值，平价水果蛋糕，21cake惠客款，不与其他优惠同享。",
+      "lunbo": [{
+        "img": "./detImgs/mg1.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/mg2.jpg"
+      }, {
+        "img": "./detImgs/mg3.jpg"
+      }, {
+        "img": "./detImgs/mg4.jpg"
+      }, {
+        "img": "./detImgs/mg5.jpg"
+      }, {
+        "img": "./detImgs/mg6.jpg"
+      }, {
+        "img": "./detImgs/mg7.jpg"
+      }, {
+        "img": "./detImgs/mg8.png"
+      }, {
+        "img": "./detImgs/mg9.jpg"
+      }]
+    },
+    {
+      "id": 34,
+      "name": "米道",
+      "introduce": "天然、天真是这款蛋糕的唯一出发点",
+      "price": "298.00",
+      "weight": "454g/(1.0磅)",
+      "img": "./img/contImg7.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "天真、天然<br>是我们做这款蛋糕唯一的出发点",
+      "lunbo": [{
+        "img": "./detImgs/md1.jpg"
+      }, {
+        "img": "./detImgs/md2.jpg"
+      }, {
+        "img": "./detImgs/md3.jpg"
+      }, {
+        "img": "./detImgs/md4.jpg"
+      }, {
+        "img": "./detImgs/md5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/md6.jpg"
+      }, {
+        "img": "./detImgs/md7.jpg"
+      }, {
+        "img": "./detImgs/md8.jpg"
+      }, {
+        "img": "./detImgs/md9.jpg"
+      }, {
+        "img": "./detImgs/md10.jpg"
+      }, {
+        "img": "./detImgs/md11.jpg"
+      }, {
+        "img": "./detImgs/md12.jpg"
+      }, {
+        "img": "./detImgs/md13.jpg"
+      }, {
+        "img": "./detImgs/md14.png"
+      }]
+    },
+    {
+      "id": 35,
+      "name": "榴莲飘飘",
+      "introduce": "严格捍卫榴莲狂热者的权利",
+      "price": "298.00",
+      "weight": "908g/2.0磅",
+      "img": "./img/contImg8.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/自然成熟的泰国榴莲/<br>/在曼谷，官兵后代庭院中，生长着一百年至一百五十年的榴莲树/<br>Imagine if an object could bear the weight of all your sins, while you swan about ever beautiful. The durian fruit bears the weight of its sins on the outside, in the form of its malodorous stench.",
+      "lunbo": [{
+        "img": "./detImgs/ll1.jpg"
+      }, {
+        "img": "./detImgs/ll2.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ll3.jpg"
+      }, {
+        "img": "./detImgs/ll4.jpg"
+      }, {
+        "img": "./detImgs/ll5.jpg"
+      }, {
+        "img": "./detImgs/ll6.jpg"
+      }, {
+        "img": "./detImgs/ll7.jpg"
+      }, {
+        "img": "./detImgs/ll8.jpg"
+      }, {
+        "img": "./detImgs/ll9.png"
+      }, {
+        "img": "./detImgs/ll10.jpg"
+      }]
+    }
+  ],
+  "Birthday": [{
+      "id": 36,
+      "name": "朗姆芝士",
+      "introduce": "香滑的乳酪与波多黎各朗姆酒",
+      "price": "198.00",
+      "weight": "454g/1.0磅",
+      "img": "./img/contImg9.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/香滑的乳酪与打开的一瓶波多黎各朗姆酒/<br>/酒香，微苦，清新的柠檬/<br>Shiver me timbers! Here’s a rum one – but unlike most of its seafaring fellows our rum cheesecake is far from swarthy.",
+      "lunbo": [{
+        "img": "./detImgs/zs1.jpg"
+      }, {
+        "img": "./detImgs/zs2.jpg"
+      }, {
+        "img": "./detImgs/zs3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/zs4.jpg"
+      }, {
+        "img": "./detImgs/zs5.jpg"
+      }, {
+        "img": "./detImgs/zs6.jpg"
+      }, {
+        "img": "./detImgs/zs7.jpg"
+      }, {
+        "img": "./detImgs/zs8.jpg"
+      }, {
+        "img": "./detImgs/zs9.png"
+      }, {
+        "img": "./detImgs/zs10.jpg"
+      }, {
+        "img": "./detImgs/zs11.jpg"
+      }]
+    },
+    {
+      "id": 37,
+      "name": "百香果酸乳酪慕斯 ",
+      "introduce": "冰淇淋口感，不同层次的酸与冰凉",
+      "price": "198.00",
+      "weight": "454g/(1.0磅)",
+      "img": "./img/contImg10.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "/何况它，有超过130种芳香/<br>/除了酸味，百香果是世界上已知，/<br>/充满芳香的水果之一。/<br>/冰淇淋口感，不同层次的酸与冰凉/<b>*本品使用木糖醇代替蔗糖，口感无差别。</b>",
+      "lunbo": [{
+        "img": "./detImgs/ms1.jpg"
+      }, {
+        "img": "./detImgs/ms2.gif"
+      }, {
+        "img": "./detImgs/ms3.jpg"
+      }, {
+        "img": "./detImgs/ms4.jpg"
+      }, {
+        "img": "./detImgs/ms5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ms6.jpg"
+      }, {
+        "img": "./detImgs/ms7.jpg"
+      }, {
+        "img": "./detImgs/ms8.jpg"
+      }, {
+        "img": "./detImgs/ms9.jpg"
+      }, {
+        "img": "./detImgs/ms10.png"
+      }]
+    },
+    {
+      "id": 38,
+      "name": "彼尔德(ＨＢＤ)",
+      "introduce": "彼尔德联名款--猪年限定版 ",
+      "price": "198.00",
+      "weight": "454g/(1.0磅)",
+      "img": "./img/contImg11.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "introduceText": "彼尔德联名款--猪年限定版",
+      "lunbo": [{
+        "img": "./detImgs/qkl1.jpg"
+      }, {
+        "img": "./detImgs/qkl2.jpg"
+      }, {
+        "img": "./detImgs/qkl3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/qkl4.gif"
+      }, {
+        "img": "./detImgs/qkl5.jpg"
+      }, {
+        "img": "./detImgs/qkl6.png"
+      }]
+    }
+  ]
+}

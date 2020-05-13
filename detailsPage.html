@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>详情页</title>
+  <link rel="stylesheet" href="./css/detailsPage.css" />
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="swiper-5.3.1/package/css/swiper.min.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./public/footer.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="swiper-5.3.1/package/js/swiper.min.js"></script>
+  <script src="./js/detailsPage_01.js"></script>
+  <script src="./js/flexible.js"></script>
+
+  <script src="./public/publicHeader.js"></script>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="headerBox">
+      <div class="destination"><i class="iconfont icon-xianduan" id="myOptionC"></i><span> <i
+            class="iconfont icon-dingwei"></i>
+          上海</span> </div>
+      <div class="homePage"><img src="../img/nav.png" alt=""></div>
+      <div class="shopping">
+        <a href="user.html"><i class="iconfont icon-duihua"></i></a>
+        <a href="shopCar.html"><i class="iconfont icon-ziyuan"></i></a>
+      </div>
+    </div>
+
+  </div>
+  <div id="details">
+    <!-- 轮播 -->
+    <div class="detailsLb swiper-container">
+      <!-- 防止轮播图片的容器 -->
+      <div class="swiper-wrapper ">
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- 介绍 -->
+    <div class="details-box">
+      <!-- 名字 -->
+      <div class="pro-title">
+       
+        <span class="pro-title-name">蓝莓丹麦（京沪杭满39元包邮）</span>
+      </div>
+      <!-- 价格 -->
+      <p class="price-label">
+        <span class="top-price">￥13.80</span>
+      </p>
+      <!-- 配送 -->
+      <span class="details-explain">限区域上海（A30绕城以内），北京（五环以内）满39元包邮，杭州绕城以内39元包邮</span>
+      <!-- 合适人群 -->
+      <div class="pro-details-label">
+        <a href="#">儿童&nbsp;›</a>
+        <a href="#">女性&nbsp;›</a>
+        <a href="#">面包&nbsp;›</a>
+      </div>
+      <!-- 规格配置 -->
+      <div class="select-card">
+        <p class="select-card-weight">已选择：66g(一个)</p>
+        <div class="details-options-card">
+          <ul class="details-options">
+            <li class="details-options-size"><i></i>66g</li>
+            <li class="details-options-unmber"><i></i>适合1-2人分享</li>
+            <li class="details-options-time"><i></i>最早明天 09:30配送</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 图片详情 -->
+    <div class="details-introduction">
+      <!-- 介绍内容 -->
+      <div class="introduceText">
+        /金黄，酥脆，内部孔洞均匀舒展/<br>
+        /咬它的口感，像踩在雪上/<br>
+        /野生蓝莓，手工熬制酱心/<br>
+        /抿一下，蓝莓酱融化在油脂香气中/<br>
+      </div>
+
+      <div class="details-img">
+        <img src="./detImgs/lm4.jpg"><br>
+        <img src="./detImgs/lm5.jpg"><br>
+        <img src="./detImgs/lm6.jpg"><br>
+        <img src="./detImgs/lm7.jpg"><br>
+        <img src="./detImgs/lm8.jpg"><br>
+        <img src="./detImgs/lm9.jpg"><br>
+        <img src="./detImgs/lm10.jpg"><br>
+      </div>
+
+      <p>
+        退改说明:<br>1. 北京、上海、杭州、广州地区距配送时间5小时及以上的订单可修改、取消、退订；距配送时间不足5小时，订单不再支持修改、取消、退订。（22点之后不接受次日14点之前配送订单修改、退订） <br> 2.
+        苏州、无锡、深圳、天津距配送时间不足8小时，订单不再支持修改、取消、退订。（22点之后不接受次日16点之前配送订单修改、退订）
+      </p>
+
+    </div>
+  </div>
+
+</body>
+<script src="./public/publicfooter.js"></script>
+<script>
+  window.onload = function () {
+    var mySwiper = new Swiper('.swiper-container', {
+      // direction: 'vertical', // 垂直切换选项
+      loop: true, // 循环模式选项
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      },
+      speed: 200,
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      virtual: false,
+    })
+  };
+</script>
+
+
+</html>

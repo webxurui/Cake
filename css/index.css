@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body {
+  min-width: 360px;
+  margin: 0 auto;
+}
+.disInFlex {
+  display: inline-flex;
+}
+/*轮播*/
+#lunbo {
+  padding-top: 40px;
+  width: 100%;
+  margin: 0 auto;
+  height: 5.066rem;
+  overflow: hidden;
+  position: relative;
+}
+#lunbo img {
+  width: 100%;
+}
+#lunbo .lunbo-dot {
+  align-self: center;
+  position: absolute;
+  width: 5rem;
+  bottom: 20px;
+  justify-content: center;
+}
+#lunbo ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+#lunbo ul li {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+/*广告*/
+.adver {
+  width: 9rem;
+  margin: 0 auto;
+  height: 0.7rem;
+  padding: 0.2rem 0;
+  line-height: 0.7rem;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #C69C6D;
+  align-items: center;
+  align-self: center;
+}
+/*展示*/
+.show {
+  width: 95%;
+  margin: 0 auto;
+  height: 2.2rem;
+  display: flex;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.show .show-item {
+  width: 25%;
+  text-align: center;
+}
+.show .show-item .show-imgbox {
+  display: flex;
+  justify-content: center;
+  height: 1.35rem;
+}
+.show .show-item img {
+  width: 1.35rem;
+}
+/*商品列表*/
+.cont {
+  margin-top: 15px;
+  width: 95%;
+  margin: 0 auto;
+}
+.cont .title {
+  border-top: 0.5px solid #E5E5E5;
+  width: 95%;
+  height: 1.25rem;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+}
+.cont .title span {
+  line-height: 1.25rem;
+}
+.cont .title .title-span1 {
+  line-height: 25PX;
+  border-radius: 15px;
+  padding: 0 0.26rem;
+  background-color: #f4ebe2;
+  align-self: center;
+}
+.cont .cont-img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #F2EAE4;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 0.5rem;
+}
+.cont .cont-img .cont-imgbox {
+  display: flex;
+  justify-content: center;
+}
+.cont .cont-img .cont-imgbox img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.cont .cont-img .cont-p {
+  font-size: 15px;
+  padding-left: 0.25rem;
+}
+.cont .cont-img .cont-p .cont-p1 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.1rem 0;
+  color: #322418;
+}
+.cont .cont-img .cont-p .cont-p1 .cont-p1-span1 {
+  font-size: 14px;
+  color: #c69c6d;
+  padding-left: 0.25rem;
+  font-weight: 500;
+}
+.cont .cont-img .cont-p .cont-p1 .cont-p1-span2 {
+  font-size: 12px;
+  color: #ccc;
+  padding-left: 0;
+  font-weight: 100;
+}
+.cont .cont-img .cont-p .cont-p2 {
+  padding: 0.1rem 0;
+  font-size: 12px;
+  color: #442818;
+  margin: 5px;
+}
+/*活动*/
+.hot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 3.84rem;
+  position: relative;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.hot .hot-text {
+  width: 35%;
+  font-size: 14px;
+  padding: 0.25rem;
+}
+.hot .hot-text .hot-text1 {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 12px;
+  height: 22px;
+  color: #442818;
+}
+.hot .hot-text .hot-text2 {
+  font-size: 12px;
+  color: #999;
+  background: #fff;
+}
+.hot .hot-text .hot-text3 {
+  font-size: 13px;
+  color: #C2A185;
+  position: absolute;
+  bottom: 0.4rem;
+}
+.hot .hot-img {
+  width: 65%;
+  height: 100%;
+}
+.hot .hot-img img {
+  width: 100%;
+  height: 100%;
+}
+/*slide swiper*/
+.swiper-box {
+  overflow: auto;
+  padding-bottom: 0.5rem;
+  padding-top: 0.15rem;
+  width: 100%;
+  height: 4rem;
+}
+.swiper-box .swiper-wrapper {
+  width: 25.52rem;
+}
+.swiper-box .swiper-slide {
+  width: 5.5rem;
+  height: 4rem;
+  padding-left: 0.3rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.swiper-box .swiper-slide img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+.swiper-box .swiper-slide p {
+  font-size: 13px;
+  padding: 0.2rem 0;
+}
+.swiper-box .swiper-slide-last {
+  width: 2rem;
+  line-height: 4rem;
+  text-align: center;
+}
+/*页脚*/
+.footer {
+  background: #414141;
+  padding: 30px 10px;
+  font-size: 12px;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer ul {
+  overflow: hidden;
+  margin-left: -2%;
+  list-style: none;
+}
+.footer ul li {
+  float: left;
+  width: 23%;
+  margin-left: 2%;
+  margin-bottom: 0.8rem;
+}
+.footer ul li a {
+  cursor: pointer;
+  height: 0.9rem;
+  display: block;
+  border: 1px solid #979797;
+  color: #979797;
+  line-height: 0.9rem;
+  text-align: center;
+}
+.footer p {
+  text-align: center;
+  color: #a0a0a0;
+  line-height: 0.5rem;
+}
+#myfooter {
+  width: 100%;
+  height: 170px;
+}

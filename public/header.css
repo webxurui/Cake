@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*顶部展示*/
+.header {
+  width: 100%;
+  z-index: 99;
+  font-size: 14px;
+
+  background: #fff;
+  height: 48px;
+  line-height: 48px;
+  position: fixed;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  top: -1px;
+}
+
+.header .headerBox {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.header .destination {
+  display: flex;
+  box-sizing: border-box;
+  width: 33.3333%;
+  align-self: center;
+  line-height: 48px;
+  align-items: center;
+}
+
+.header .destination i {
+  font-size: 27PX;
+  padding-left: 10PX;
+
+}
+
+.header .destination span {
+  color: #442818;
+  font-size: 13px;
+  padding-left: 10PX;
+}
+
+.header .destination span i {
+  font-size: 13PX;
+  vertical-align: middle;
+}
+
+.header .homePage {
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.3333%;
+  vertical-align: middle;
+}
+
+.header .homePage img {
+  width: 30PX;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .shopping {
+  box-sizing: border-box;
+  width: 33.3333%;
+  text-align: right;
+  align-self: center;
+  padding-right: 15PX;
+}
+
+.header .shopping a {
+  display: inline-block;
+  color: #442818;
+  position: relative;
+}
+
+.header .shopping a #cartNum {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: 10px;
+  background: rgb(186, 153, 120);
+  color: #fff;
+  z-index: 1000;
+}
+
+.header i {
+  font-size: 20PX;
+  vertical-align: middle;
+}
+
+/*顶部的nav hover框*/
+.flexHover {
+  width: 100%;
+  z-index: 999;
+  font-size: 14px;
+  border-top: 1px;
+  background: #fff;
+  height: 50px;
+  position: fixed;
+  top: 46px;
+  box-shadow: 0px 7px 10px 0px rgba(145, 145, 145, 0.50);
+}
+
+.flexHover ul {
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexHover ul li {
+  width: 30%;
+  height: 50px;
+  text-align: center;
+}
+
+.flexHover ul li a {
+  color: #442818;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.flexHover ul li p:nth-child(1) {
+  height: 25px;
+  line-height: 25px;
+  padding-top: 5px;
+}
+
+.flexHover ul li p:nth-child(1) i {
+  font-size: 20px;
+}
+
+.flexHover ul li p:nth-child(2) {
+  height: 20px;
+  line-height: 20px;
+}

@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #442818;
+}
+body {
+  background-color: #F6F6F6;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #442818;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+ul {
+  list-style: none;
+}
+.detailsLb {
+  width: 100%;
+}
+.detailsLb img {
+  width: 100%;
+  display: block;
+  min-height: 170px;
+  background: #eee;
+}
+.details-box {
+  background: #fff;
+  padding-bottom: 20px;
+}
+.details-box .pro-title {
+  padding: 0 24px;
+  color: #333;
+}
+.details-box .pro-title h3 {
+  font-size: 24px;
+  color: #333;
+  line-height: 29px;
+  padding-top: 10px;
+}
+.details-box .pro-title span {
+  font-size: 14px;
+  line-height: 18px;
+}
+.details-box .price-label {
+  margin-top: 4px;
+  height: 30px;
+}
+.details-box .price-label .top-price {
+  font-size: 22px;
+  color: #C69C6D;
+  padding-left: 24px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+}
+.details-box .details-explain {
+  color: #969696;
+  display: block;
+  padding: 0 24px;
+  margin: 5px 0;
+}
+.details-box .pro-details-label {
+  padding: 5px 24px;
+}
+.details-box .pro-details-label a {
+  display: inline-block;
+  line-height: 18px;
+  color: #D5BFA7;
+  padding: 0 12px;
+  border: 1px solid #D5BFA7;
+  border-radius: 100px;
+  margin-right: 6px;
+}
+.details-box .select-card {
+  background: #FFF;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 0 20px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.details-box .select-card p {
+  border-bottom: none;
+  background: #F4F0EB;
+  padding-left: 14px;
+  height: 45px;
+  font-size: 13px;
+  line-height: 45px;
+  border-top: 1px solid #eee;
+}
+.details-box .select-card .details-options-card {
+  margin: 18px 14px 8px;
+  border-bottom: 1px solid #D2D2D2;
+}
+.details-box .select-card .details-options-card .details-options {
+  overflow: hidden;
+  width: 100%;
+}
+.details-box .select-card .details-options-card .details-options li {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 6px;
+  color: #482618;
+}
+.details-introduction .introduceText {
+  padding: 15px;
+  background: #FFFFFF;
+  margin-top: 12px;
+}
+.details-introduction .details-img {
+  margin-top: 12px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.details-introduction .details-img img {
+  display: block;
+  width: 100%;
+  float: left;
+}
+.details-introduction p {
+  font-family: "Microsoft Yahei";
+  color: #666666;
+  font-size: small;
+  margin-bottom: 50px;
+}

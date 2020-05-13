@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>21Cake蛋糕官网_24小时蛋糕网上订购_5小时新鲜送达！</title>
+  <link rel="stylesheet" href="./css/user.css">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <script src="./js/flexible.js"></script>
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./public/publicHeader.js"></script>
+</head>
+
+<body>
+  <div class="userSign">
+    <div class="userSignTitle">
+      <div class="passwordLoginTitle signTitle signTitleClick">
+        <p>账号密码登录</p>
+      </div>
+      <div class="phoneLoginTitle signTitle">
+        <p>手机验证码登录</p>
+      </div>
+    </div>
+
+    <div class="Signbox">
+      <form action="" id="passwordLogin" class="signform">
+        <ul>
+          <li><input type="text" placeholder="用户名/邮箱地址" name="loginName1" maxlength="60"></li>
+          <li><input type="password" name="password1" id="password1" maxlength="32" placeholder="填写密码"></li>
+          <li class="err" style="visibility: hidden;">账号不存在</li>
+          <input type="submit" value="登录" class="sign">
+        </ul>
+        <div class="help">
+          <a href="#">忘记密码</a>
+          <a href="#">去注册</a>
+        </div>
+      </form>
+
+      <form action="" id="phoneLogin" class="signform" style="display: none;">
+        <ul>
+          <li><input type="text" placeholder="手机号" name="loginName2" maxlength="60"></li>
+          <li class="phoneLoginLi2">
+            <input type="password" name="password2" id="password2" maxlength="32" placeholder="填写密码">
+            <button class="phoneLoginVeri">发生验证码</button>
+          </li>
+          <li class="err" style="visibility: hidden;">请输入正确的手机号</li>
+          <input type="submit" value="登录" class="sign">
+        </ul>
+        <div class="help">
+          <a href="#">忘记密码</a>
+          <a href="#">去注册</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./js/cartNumJuage.js"></script>
+  <script>
+    // var signTitle = document.getElementsByClassName('signTitle');
+    // var signform = document.getElementsByClassName('signform');
+    // for (let i = 0; i < signTitle.length; i++) {
+    //   signTitle[i].onclick = function () {
+    //     for (let j = 0; j < signTitle.length; j++) {
+    //       signTitle[j].classList.remove('signTitleClick');
+    //       signform[j].style.display = 'none';
+    //     }
+    //     signTitle[i].classList.add('signTitleClick');
+    //     signform[i].style.display = 'block';
+    //   }
+    // }
+    $('.signTitle').click(function () {
+      $(this).addClass('signTitleClick').siblings().removeClass('signTitleClick')
+      $('.signform').eq($(this).index()).show().siblings().hide();
+    })
+    cartNumJuage();
+  </script>
+</body>
+
+</html>

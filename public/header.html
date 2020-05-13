@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1646685_ow1hfvhu6t.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="headerBox">
+      <div class="destination"><i class="iconfont icon-xianduan" id="myOptionC"></i><span> <i
+            class="iconfont icon-dingwei"></i>
+          上海</span> </div>
+      <div class="homePage"><img src="../img/nav.png" alt=""></div>
+      <div class="shopping">
+        <a href="user.html"><i class="iconfont icon-duihua"></i></a>
+        <a href="shopCar.html"><i class="iconfont icon-ziyuan"></i> <span id="cartNum"></span></a>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- 顶部左侧点击选项按钮出现的hover框 -->
+  <div class="flexHover" style="display: none;">
+    <ul>
+      <li>
+        <a href="index.html">
+          <p><i class="iconfont icon-shouye"></i></p>
+          <p>首页</p>
+        </a>
+      </li>
+      <li>
+        <a href="fenlei.html">
+          <p><i class="iconfont icon-fenlei1"></i></p>
+          <p>分类</p>
+        </a>
+      </li>
+      <li>
+        <a href="user.html">
+          <p><i class="iconfont icon-personal"></i></p>
+          <p>个人</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script>
+    var optionClick = document.getElementById('myOptionC');
+    var flexHover = document.getElementsByClassName('flexHover')[0]
+    // console.log(optionClick)
+    var flag = true;
+    optionClick.onclick = function () {
+      if (flag) {
+        flexHover.style.display = 'block';
+        optionClick.classList.add('icon-x');
+        optionClick.classList.remove('icon-xianduan');
+        flag = false;
+      } else {
+        flexHover.style.display = 'none';
+        optionClick.classList.add('icon-xianduan');
+        optionClick.classList.remove('icon-x');
+        flag = true;
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background: #414141;
+  padding: 30px 10px;
+  font-size: 12px;
+  width: 100%;
+  height: 163px;
+  box-sizing: border-box;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer p {
+  text-align: center;
+  color: #a0a0a0;
+  line-height: 20px;
+}
+
+.footer ul {
+  overflow: hidden;
+  margin-left: -2%;
+  list-style: none;
+}
+
+.footer ul li {
+  float: left;
+  width: 23%;
+  margin-left: 2%;
+  margin-bottom: 23px;
+}
+
+.footer ul li a {
+  cursor: pointer;
+  height: 30px;
+  display: block;
+  border: 1px solid #979797;
+  color: #979797;
+  line-height: 30px;
+  text-align: center;
+}

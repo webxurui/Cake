@@ -1,0 +1,386 @@
+@Maxwidth: 100%;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  // max-width: 540px;
+  margin: 0 auto;
+}
+
+.disFlex {
+  display: flex;
+}
+
+.disInFlex {
+  display: inline-flex;
+}
+
+
+
+
+// 分类选项
+.options {
+  top: 0;
+  width: 100%;
+  height: 40PX;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 40PX;
+  z-index: 99;
+  position: fixed;
+  overflow: hidden;
+  background: #fff;
+
+  .optionsBox {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    height: 40px;
+
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    ul {
+      width: 540px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 40px;
+      background: #fff;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      overflow: auto;
+      height: 40PX;
+      line-height: 39PX;
+      list-style-type: none;
+
+      li {
+        height: 38px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        // margin: 0 15px;
+        width: 87.5px;
+
+        a {
+          display: inline-block;
+          font-size: 14px;
+          color: #707070;
+          text-decoration: none;
+          -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+          -webkit-user-select: none;
+          -moz-user-focus: none;
+          -moz-user-select: none;
+        }
+      }
+
+      .liHover {
+        border-bottom: #442818 2px solid;
+        color: #442818;
+      }
+    }
+  }
+}
+
+// 分页内容
+.cont {
+  margin-top: 80px;
+
+  // 标题组件样式
+  .cont-title {
+    width: 100%;
+    // height: 1.3rem;
+    border-bottom: 1px solid #E9E9E9;
+    text-align: center;
+    background: rgba(213, 191, 167, 0.10);
+
+
+    .cont-titleP1 {
+      font-size: 15px;
+      color: #000;
+      padding-top: .2rem;
+    }
+
+    .cont-titleP2 {
+      font-size: 12px;
+      color: #D5BFA7;
+      padding-bottom: .1rem;
+    }
+  }
+
+
+  .cont-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .contText-item {
+      width: 50%;
+      padding: 0 4%;
+      box-sizing: border-box;
+      height: 6rem;
+      overflow: hidden;
+      position: relative;
+
+
+      .itemImg {
+        width: 100%;
+        height: 4.7rem;
+
+        img {
+          width: 100%;
+          height: 4.7rem;
+        }
+      }
+    }
+
+    .itemPrice {
+      font-size: 12px;
+      color: #000;
+
+      .itemPrice-p3 {
+        padding-top: .05rem;
+        font-size: 12px;
+        color: #BB9772;
+        display: flex;
+        justify-content: space-between;
+
+        i {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .posAb {
+      position: absolute;
+      top: .5rem;
+
+      img {
+        width: 1.2rem;
+      }
+    }
+
+    .posAb-lack {
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 6rem;
+      background-color: rgba(255, 255, 255, .7);
+      color: #000;
+      font-size: 16px;
+      line-height: 4.5rem;
+      text-align: center;
+    }
+  }
+}
+
+
+/*页脚*/
+.footer {
+  background: #414141;
+  padding: 30px 10px;
+  font-size: 12px;
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    overflow: hidden;
+    margin-left: -2%;
+    list-style: none;
+
+    li {
+      float: left;
+      width: 23%;
+      margin-left: 2%;
+      margin-bottom: .8rem;
+
+      a {
+        cursor: pointer;
+        height: .9rem;
+        display: block;
+        border: 1px solid #979797;
+        color: #979797;
+        line-height: .9rem;
+        text-align: center;
+      }
+    }
+  }
+
+  p {
+    text-align: center;
+    color: #a0a0a0;
+    line-height: .5rem;
+  }
+}
+
+//蛋糕多选模态框
+.modal-box {
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+
+  .modal-box-content {
+    background-color: #fff;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    // transform: translateY(-50%);
+    left: 0;
+    width: 92%;
+    height: 338px;
+    margin: 0 4%;
+    z-index: 100001;
+
+    #colseModal {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #BB9772;
+      font-size: 25px;
+    }
+
+    .modal-suspension-content {
+      padding: 14px 24px 8px 24px;
+
+      .modal-price {
+        font-size: 15px;
+        color: #000;
+        line-height: 22px;
+        margin-bottom: 15px;
+      }
+
+      .modal-options {
+        overflow: hidden;
+        width: 100%;
+        list-style-type: none;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li {
+          width: 48%;
+          margin-right: 2%;
+          margin-bottom: 7px;
+          color: #442818;
+
+          i {
+            padding-right: 4px;
+            color: #939393;
+
+          }
+        }
+      }
+
+      .normal-box {
+        padding-top: 10px;
+
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 12px;
+          color: #442818;
+        }
+
+        ul {
+          overflow: hidden;
+          margin-left: -2%;
+          margin-top: 5px;
+
+          li {
+            min-width: 23%;
+            height: 32px;
+            background: #F7F7F7;
+            border: 1px solid #F7F7F7;
+            float: left;
+            text-align: center;
+            margin-left: 2%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            padding: 0 1%;
+            width: auto;
+            min-width: 23%;
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 14px;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+          }
+
+          .active {
+            border: 1px solid #442818;
+            box-sizing: border-box;
+            background: url(../img/icon_selected.png) no-repeat top left;
+            background-size: 12px 12px;
+          }
+        }
+      }
+
+      .addcartBtn {
+        background: #442818;
+        width: 66%;
+        height: 44px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        display: block;
+        line-height: 44px;
+        margin-left: 15%;
+        margin-top: 28px;
+        margin-bottom: 16px;
+        padding: 0 3%;
+      }
+    }
+  }
+}
+
+// 加入购物车成功模态框
+.modalCase {
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  z-index: 99998;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+
+  .modalCont {
+    background-color: #fff;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    // transform: translateY(-50%);
+    left: 0;
+    width: 92%;
+    height: 80px;
+    margin: 0 4%;
+    z-index: 99999;
+
+    p {
+      font-size: 16px;
+      color: #BB9772;
+      line-height: 80px;
+      text-align: center;
+    }
+  }
+}

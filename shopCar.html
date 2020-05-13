@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet/less" type="text/css" href="./css/shopCar.less" /> -->
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./public/footer.css">
+  <link rel="stylesheet" href="./css/shopCar.css">
+  <script src="./js/flexible.js"></script>
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./public/publicHeader.js"></script>
+</head>
+
+<body>
+  <div class="shopCarNull">
+    <div class="carNone ">
+      <img src="./img/cart-empty.png" alt="">
+      <p>您的购物车里还没有商品</p>
+      <a href="./index.html">去购物 >>></a>
+    </div>
+  </div>
+  <div class="shopCar">
+    <p class="cartTitle" id="top-notice">· 满100元免配送服务费 ·</p>
+    <ul class="cartUl">
+    </ul>
+    <!-- 底部核算 -->
+    <div class="place-bottom">
+      <a href="#" class="delete-but"><i class="iconfont icon-x"></i></a>
+      <a href="javascript:void(0);" class="order-but">去结算</a>
+      <div class="pay-money" id="cart-total-amount">
+        <div><span id="pay-price">¥268.00</span><span>商品</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/cartNumJuage.js"></script>
+  <!-- <script src="./js/shopCar.js"></script> -->
+  <script src="./js/shopCar1.js"></script>
+</body>
+
+</html>
